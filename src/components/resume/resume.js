@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/reginaldjohnsonjr/Documents/Website-Port/reggie-portfolio/src/scss/_resume.scss'
+import '../../scss/_resume.scss'
 
 
 const Resume = () => {

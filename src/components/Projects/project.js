@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/reginaldjohnsonjr/Documents/Website-Port/reggie-portfolio/src/scss/_project.scss'
+import '../../scss/_project.scss'
 const Projects = () => {
   let styles = {
     height: '300px',

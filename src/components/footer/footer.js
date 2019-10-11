@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/reginaldjohnsonjr/Documents/Website-Port/reggie-portfolio/src/scss/_footer.scss'
+import '../../scss/_footer.scss'
 import { func } from 'prop-types';
 
 const Footer = () => {

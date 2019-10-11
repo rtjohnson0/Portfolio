@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/reginaldjohnsonjr/Documents/Website-Port/reggie-portfolio/src/scss/_jumbotron.scss'
+import '../../scss/_jumbotron.scss'
 
 
 const Jumbotron = () => {

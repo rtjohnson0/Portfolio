@@ -1,0 +1,110 @@
+.rounded-circle{
+    border: 3px solid white;
+    box-shadow: 0 0 25px white;
+    width: 175px;
+	height: 175px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+	img { width: 100%; height: 100%; }
+}
+.white-text{
+    color: white;
+    display: block;
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+.text-wrap{
+	flex-direction: column;
+	padding: 0px 200px;
+	display: flex;
+	justify-content: center;
+
+
+}
+.text-wrapping{
+	
+	padding: 80px 200px;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(1px);
+		
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-13px);
+		
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(1px);
+	}
+}
+@keyframes reveal {
+    0% {
+      transform: translate(0,100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(0,0);
+    }
+  }
+
+ 
+  .arrows {
+	width: 60px;
+	height: 72px;
+	
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+	animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+
+.arrows path {
+	stroke: #ffffff;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}

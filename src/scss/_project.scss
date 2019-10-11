@@ -1,0 +1,49 @@
+#portfolio {
+    position: relative;
+    padding-bottom: 50px;
+}
+#portfolio .portfolio-container {
+    display: inline-block;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.jumbotron-project{
+    background: 
+  linear-gradient(
+    rgba(0, 0, 250, 0.25), 
+    rgba(59, 77, 77, 0.45)
+  );
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color:white;
+  height:125vh;
+  }
+  
+  
+  .container-project{
+      padding: 300px 0px;
+      margin-bottom: 200px;
+  }
+  
+  .text_margin{
+      width:70vw;
+      margin: 0 auto;
+      
+  }
+  .string-1{
+    padding-top:30px;
+    width:600px;
+    margin:0 auto;
+    font-weight:100;
+    margin-top:-35px;
+  }
+  .main-project{
+      margin-bottom: 30px
+  }
+.content{
+    margin-top: 10%;
+}
+  
+  

@@ -14,14 +14,24 @@
     display: block;
   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
 }
-.text-wrap{
+
+
+@media screen and (min-width: 750px) {
+	.text-wrap{
+
 	flex-direction: column;
 	padding: 0px 200px;
 	display: flex;
 	justify-content: center;
+	line-height: 3.5em;
 
+	
 
-}
+	}
+
+	
+	
+  }
 .text-wrapping{
 	
 	padding: 80px 200px;

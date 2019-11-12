@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../scss/_contact.scss'
+
 
 const Contact = () => {
   return (

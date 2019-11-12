@@ -1,8 +1,13 @@
 import React from 'react'
-import '../../scss/_footer.scss'
+
 import { func } from 'prop-types';
 
+
 const Footer = () => {
+  
+    var today = new Date();
+    var date = (today.getMonth()+1)+'-'+today.getDate()+'-'+today.getFullYear();
+  
 
   return (
 
@@ -42,8 +47,8 @@ const Footer = () => {
 
 
 
-      <div class="footer-copyright text-center py-3">© 2018 Copyright: Reginald Johnson Jr
-        <p>Last Modified:October 9, 2019</p>
+      <div class="footer-copyright text-center py-3">© 2019 Copyright: Reginald Johnson Jr
+        <p>Last Modified:{date}</p>
 
       </div>
 

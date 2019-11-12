@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../scss/_resume.scss'
+
 
 
 const Resume = () => {
@@ -12,9 +12,17 @@ const Resume = () => {
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0 text-light">Apprentice Junior Web Developer</h3>
+            <h3 class="mb-0 text-light">Junior Software Engineer</h3>
             <div class="subheading mb-3 text-light"><h5>RoadToHire</h5></div>
-            <p className='text-light'>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <ul className='text-light'>
+              <li className="newFont">Learning multiple coding languages in Front-End languages and Back-End languages
+              </li>
+              <li className="newFont">Learned professional development and building personal branding
+              </li>
+              <li className="newFont">Worked with Red Ventures employees as a mentee to complete multiple high level projects
+              </li>
+
+              </ul>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary text-light">June 2019 - Present</span>
@@ -26,7 +34,15 @@ const Resume = () => {
           <div class="resume-content">
             <h3 class="mb-0 text-light">Tech Services</h3>
             <div class="subheading mb-3 text-light"><h5>Staples</h5></div>
-            <p className='text-light'>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+            <ul className='text-light'>
+              <li className="newFont">Fixing and debugging customers electronics in 48 hours or less.
+              </li>
+              <li className="newFont">Informing and selling multiple electronics to customers
+              </li>
+              <li className="newFont">Restocking and recording each item when purchased or returned
+              </li>
+
+              </ul>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary text-light">August 2018 - February 2019</span>
@@ -37,25 +53,77 @@ const Resume = () => {
           <div class="resume-content">
             <h3 class="mb-0 text-light">Electrical Engineering Intern</h3>
             <div class="subheading mb-3 text-light"><h5>Fairfax Fire Department</h5></div>
-            <p className='text-light'>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+            <ul className='text-light'>
+              <li className="newFont">To make sure buildings follow Fire Marshall Code, reviewing plans and architectural structures
+              </li>
+              <li className="newFont">Help approve or disapprove buildings upon regulations provided
+              </li>
+              <li className="newFont">Solving situations that are uncommon or not officially announced in regulations
+              </li>
+
+              </ul>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary text-light">May 2017 - August 2017</span>
           </div>
         </div>
+        <hr />
         <div class="w-100">
         
         <h2 class="mb-5 text-light">Education</h2>
+     
         
        
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
             <h3 class="mb-0 text-light">Frostburg State University</h3>
             <div class="subheading mb-3 text-light">Electrical Engineering</div>
-            <p className='text-light'>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+            <ul className='text-light'>
+              <li className="newFont">Accepted into the Electrical Engineering program
+              </li>
+              <li className="newFont">SolidWorks Software
+              </li>
+              <li className="newFont">Coding for C++
+              </li>
+
+              </ul>
           </div>
+        
+          
           <div class="resume-date text-md-right">
             <span class="text-primary text-light">August 2015 - December 2018</span>
+            </div>
+          </div>
+          <hr />
+          <h2 class="mb-5 text-light">Skills</h2>
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <ul className='text-light'>
+              <li className="newFont">Javascript
+              </li>
+              <li className="newFont">C#
+              </li>
+              <li className="newFont">React.JS
+              </li>
+              <li className="newFont">MySql
+              </li>
+              <li className="newFont">MongoDB
+              </li>
+              <li className="newFont">HTML
+              </li>
+              <li className="newFont">CSS
+              </li>
+              <li className="newFont">Node.JS
+              </li>
+              <li className="newFont">Test Driven Development
+              </li>
+              <li className="newFont">Public Speaking
+              </li>
+
+              </ul>
+          </div>
+          <div class="resume-date text-md-right">
+            
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../scss/_project.scss'
+
 const Projects = () => {
   let styles = {
     height: '300px',
@@ -49,7 +49,7 @@ const Projects = () => {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading text-light text-md-center">Weather App</h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead font-weight-bold">Building a weather application that shows the weather conditions of a particular city when you supply the city and country by using an API key from a weather channel site.</p>
             <button type="button" class="btn btn-success"><a className='text-light' href='https://reggiesweatherapp.netlify.com/' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5">
@@ -65,12 +65,12 @@ const Projects = () => {
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading text-light text-center">Ecommerce-Demo</h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <button type="button" class="btn btn-success"><a className='text-light' href='https://github.com/rtjohnson0/Ecommerce-Project' target='_blank'>Go to page </a></button>
+            <h2 class="featurette-heading text-light text-center">Lifesports Hack-A-Thon</h2>
+            <p class="lead text-dark font-weight-bold">Road To Hire Hackathon's task was to build a UI for LifeSports while connecting it to our own MongoDB Atlas Database. This task was built and launched on Heroku by a team of 3 people.</p>
+            <button type="button" class="btn btn-success"><a className='text-light' href='https://lifesportssiliconvalley.herokuapp.com/' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/ecommerce-demo.png" data-holder-rendered="true" style={styles} />
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/lifesports.png" data-holder-rendered="true" style={styles} />
           </div>
         </div>
 
@@ -79,7 +79,7 @@ const Projects = () => {
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading text-center text-light">Number Guessing Game</h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead font-weight-bold">Created a React-App that allows the user to play a number guessing game from 1-100. When the user chooses a number too high or too low it will announce it at the top of the screen. When a user is correct it will announce it at the top and offer a new game.</p>
             <button type="button" class="btn btn-success"><a className='text-light' href='https://reggiesnumberguessinggame.netlify.com/' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5">
@@ -95,7 +95,7 @@ const Projects = () => {
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading text-light text-center">Tic-Tac-Toe</h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead font-weight-bold">Lets you play tic-tac-toe,indicates when a player has won the game,stores a game’s history as a game progresses and allows players to review a game’s history and see previous versions of a game’s board.</p>
             <button type="button" class="btn btn-success"><a className='text-light' href='https://reggietictactoe.netlify.com/' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5 order-md-1">

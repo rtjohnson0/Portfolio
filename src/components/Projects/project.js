@@ -17,9 +17,9 @@ const Projects = () => {
       <div id="cover">
         <div class="jumbotron-project jumbotron-fluid">
 
-          <div class="container-project white-text">
-            <h1 class="title display-3 text-center" style={font}>Projects<strong style={font2}>Page</strong></h1>
-            <p class="lead string-1 text-center"><strong>The projects presented were created using various skills ranging from HTML, CSS, Javascript, React.Js, MySQL, Node.js, and Test Driven Development</strong></p>
+          <div class="container-project container-fluid white-text">
+            <h1 class="title display-3 text-center" style={font}>Project<strong style={font2}>Page</strong></h1>
+            <p class="lead string-1 text-center"><strong>The projects presented were created using various skills ranging from HTML, CSS, Javascript, React.Js, MySQL, MongoDB, Node.js, and Test Driven Development</strong></p>
             <section>
 
               <div className='text-wrapping'>
@@ -48,12 +48,12 @@ const Projects = () => {
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading text-light text-md-center">Weather App</h2>
-            <p class="lead font-weight-bold">Building a weather application that shows the weather conditions of a particular city when you supply the city and country by using an API key from a weather channel site.</p>
-            <button type="button" class="btn btn-success"><a className='text-light' href='https://reggiesweatherapp.netlify.com/' target='_blank'>Go to page </a></button>
+            <h2 class="featurette-heading text-light text-md-center">Gateway Project</h2>
+            <p class="lead font-weight-bold">The first website I ever made. This project has HTML, CSS and was built in 6 weeks of learning about the new languages. The gateway project was created through Codepen.io</p>
+            <button type="button" class="btn btn-success"><a className='text-light' href='https://codepen.io/Rtjohnson0/project/full/AbBgqE' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style={styles} src="images/weatherapp.png" data-holder-rendered="true" />
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style={styles} src="images/gateway.png" data-holder-rendered="true" />
 
           </div>
         </div>
@@ -78,12 +78,12 @@ const Projects = () => {
 
         <div class="row featurette">
           <div class="col-md-7">
-            <h2 class="featurette-heading text-center text-light">Number Guessing Game</h2>
-            <p class="lead font-weight-bold">Created a React-App that allows the user to play a number guessing game from 1-100. When the user chooses a number too high or too low it will announce it at the top of the screen. When a user is correct it will announce it at the top and offer a new game.</p>
-            <button type="button" class="btn btn-success"><a className='text-light' href='https://reggiesnumberguessinggame.netlify.com/' target='_blank'>Go to page </a></button>
+            <h2 class="featurette-heading text-center text-light">Ecommerce Site</h2>
+            <p class="lead font-weight-bold">Created a React-App that allows the user to view all gaming products for EB Games. This has MySql, Node, React.Js, and TDD. This was my first full-stack project.</p>
+            <button type="button" class="btn btn-success"><a className='text-light' href='https://github.com/rtjohnson0/Ecommerce-Project  ' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/number-guessing.png" data-holder-rendered="true" style={styles} />
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/ecom-demo.png" data-holder-rendered="true" style={styles} />
           </div>
         </div>
 
@@ -94,12 +94,12 @@ const Projects = () => {
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading text-light text-center">Tic-Tac-Toe</h2>
-            <p class="lead font-weight-bold">Lets you play tic-tac-toe,indicates when a player has won the game,stores a game’s history as a game progresses and allows players to review a game’s history and see previous versions of a game’s board.</p>
-            <button type="button" class="btn btn-success"><a className='text-light' href='https://reggietictactoe.netlify.com/' target='_blank'>Go to page </a></button>
+            <h2 class="featurette-heading text-light text-center">Ecom + PWA</h2>
+            <p class="lead font-weight-bold">The task was to build a UI for my products page while connecting it to my own MongoDB Atlas Database. Only allowing the admin to login and see the products to manipulate them if needed. Created a PWA to allow anyone to add this to their home screen on their phone! This task was built and launched on Heroku by Reginald Johnson Jr</p>
+            <button type="button" class="btn btn-success"><a className='text-light' href='https://authreggie.herokuapp.com/' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/tic-tac-toe.png" data-holder-rendered="true" style={styles} />
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/EBGAMES.png" data-holder-rendered="true" style={styles} />
           </div>
         </div>
 

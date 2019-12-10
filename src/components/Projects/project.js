@@ -19,7 +19,7 @@ const Projects = () => {
 
           <div class="container-project container-fluid white-text">
             <h1 class="title display-3 text-center" style={font}>Project<strong style={font2}>Page</strong></h1>
-            <p class="lead string-1 text-center"><strong>The projects presented were created using various skills ranging from HTML, CSS, Javascript, React.Js, MySQL, MongoDB, Node.js, and Test Driven Development</strong></p>
+            <p class="lead string-1 text-center"><strong>The projects presented were created using various skills ranging from HTML, CSS, Javascript, React.Js, MySQL, MongoDB, Node.js, C#, and Test Driven Development</strong></p>
             <section>
 
               <div className='text-wrapping'>
@@ -94,12 +94,12 @@ const Projects = () => {
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading text-light text-center">Ecom + PWA</h2>
-            <p class="lead font-weight-bold">The task was to build a UI for my products page while connecting it to my own MongoDB Atlas Database. Only allowing the admin to login and see the products to manipulate them if needed. Created a PWA to allow anyone to add this to their home screen on their phone! This task was built and launched on Heroku by Reginald Johnson Jr</p>
-            <button type="button" class="btn btn-success"><a className='text-light' href='https://authreggie.herokuapp.com/' target='_blank'>Go to page </a></button>
+            <h2 class="featurette-heading text-light text-center">C#</h2>
+            <p class="lead font-weight-bold">Created a set responses in the console for challenges given for the intro of C#. The tasks were to learn about Readlines, WriteLines, for loops, and more!</p>
+            <button type="button" class="btn btn-success"><a className='text-light' href='https://github.com/Code2Hire/submit-weeklychallenges-r2h-2019-rtjohnson0/tree/test1/cSharp' target='_blank'>Go to page </a></button>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/EBGAMES.png" data-holder-rendered="true" style={styles} />
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="images/Csharp.png" data-holder-rendered="true" style={styles} />
           </div>
         </div>
 

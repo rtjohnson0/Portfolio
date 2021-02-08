@@ -14,7 +14,7 @@ const Jumbotron = () => {
           <h1 class="jumbotron-heading white-text">Reginald Johnson Jr</h1>
           
           <div className="container-fluid text-center">
-          <img className='rounded-circle' src='https://media.licdn.com/dms/image/C4E03AQE68h7rsiV0LA/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=nPjih8NKbpKFwkG3HsJM8iYda-GShYiLx-zMW2stMmE' height='250' width='250' alt='Reginald Johnson profile' />
+          <img className='rounded-circle' src='https://media-exp1.licdn.com/dms/image/C4E03AQE68h7rsiV0LA/profile-displayphoto-shrink_400_400/0/1567609323100?e=1618444800&v=beta&t=9uqbtQvFFIRA5TPZMOlKFccQRs9sv6gOhxfajEWWpdUE' height='250' width='250' alt='Reginald Johnson profile' />
           <h2 className='white-text'>Software Engineer</h2>
           <div className="row">
             <div className ="text-wrap">
